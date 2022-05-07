@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ships{
+            height: 30px;
+            width: 100%;
+            background-color:whitesmoke;
+            border: solid rgb(216, 215, 215) 1px ;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            color: rgb(166, 166, 166);
+            margin-left: -10px;
+          margin-top: -9px;
+        }
+        #ships> p{
+            margin-left: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+        P ~ p{
+            color: black;
+            padding-left: -20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+        img{
+            border-radius: 50%;
+            width: 26px;
+            height: 26px;
+            object-fit: cover;
+            margin-left: 10px;  
+        }
+        #logobar{
+            height: 85px;
+            width: 100%;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+
+        }
+        #logobar > img{
+            width: 175px;
+            height: 80px;
+        }
+        #logobar > div{
+            height: 100%;
+            width: 250px;
+            
+        }
+        #logobar > #serche{
+            height: 100%;
+            width: 850px;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #logobar > #serche > input{
+            width: 95%;
+            height: 33px;
+            background-color: whitesmoke;
+            border: solid gray 1px;
+        }
+        #logobar > #serche #lastbox{
+            height: 100%;
+            width: 250px;
+           
+        }
+        #lastbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        #lastbox > div ~ div {
+            margin-left: 25px;
+        }
+        #nevbar{
+            height: 35px;
+            width: 100%;
+            margin-left: -10px;
+            border: solid rgb(216, 215, 215) 1px ;
+            display: grid;
+            grid-template-rows: 25px;
+            grid-template-columns: repeat(13,100px);
+            justify-content: center;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:rgb(61, 61, 61); 
+        }
+        h1{
+            margin-left: 50px;
+            margin-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 80;
+            color: rgb(88, 87, 87);
+        }
+        h1~div{
+            height: 500px;
+            width: 100%;
+          
+            display: flex;
+        }
+         
+        #cartitem {
+         height: 150px;
+         width: 900px;
+         border: solid rgb(198, 195, 195) 1px;
+         margin-left: 50px;
+        }
+        #totalrete{
+            height: 180px;
+            width: 300px;
+            border: solid rgb(198, 195, 195) 1px;
+            margin-left: 30px;
+        }
+        #bottom{
+            height: 350px;
+            width: 100%;
+            border: solid black 1px;
+            display: grid;
+            grid-template-columns: repeat(4,220px);
+            grid-template-rows: 200px;
+            gap: 100px;
+            background-color: rgb(102, 102, 102);
+        }
+        #bottom > div{
+            margin-top: 40px;
+            margin-left: 100px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+       
+       
+    </style>
+</head>
+<body>
+    <div id="ships" >
+        <p> Ships to:</p>
+        <img src="https://ak1.ostkcdn.com/img/mxc/intFlag_IN.gif"/>
+        <p>INDIA</p>
+
+    </div>
+    <div id="logobar">
+       <img src="data:image/png;base64,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" />
+      <div id="serche">
+          <input type="text" placeholder="Serche">
+
+      </div>
+      <div id="lastbox" >
+       <div> <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+      </svg> </div>
+       <div> <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+      </svg></div>
+       <div> <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-minecart" viewBox="0 0 16 16">
+        <path d="M4 15a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8-1a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82 1.313 7h11.17l1.313-7H1.102z"/>
+      </svg></div>
+      </div>
+    </div>
+    <div id="nevbar">
+     <div>Furniture</div>
+     <div>Rugs</div>
+     <div>Decor</div>
+     <div>Bed & Bath</div>
+     <div>Home Improvement</div>
+     <div>Kitchen</div>
+     <div>Outdoor</div>
+     <div>Jewelry</div>
+     <div>Lighting</div>
+     <div>Kids & Baby</div>
+     <div>More</div>
+     <div>Ideas</div>
+     <div>Sales & Deals</div>
+    </div>
+    <h1>Shopping Cart</h1>
+    <div>
+        <div id="cartitem"></div>
+        <div id="totalrete">
+
+        </div>
+    </div>
+    <div id="bottom">
+        <div>
+            MY ACCOUNT
+            Orders & Returns
+            Email Preferences
+            Account Settings
+        </div>
+        <div>LET US HELP
+            Contact Customer Care
+            Shipping Information
+            Return Policy
+            International Help
+            Accessibility</div>
+        <div>COMPANY INFORMATION
+            About Overstock™
+            Contact Us
+            Careers
+            Investor Relations
+            Sell Your Products
+            Supply Chain Transparency</div>
+        <div>MORE WAYS TO SHOP
+            Tips & Ideas
+            Deals
+            Clearance
+            New Arrivals</div>
+
+    </div>
+</body>
+</html>
+<script>
+     document.querySelector("addtocart").addEventListener("click",myfun)
+    function myfun(){
+        event.preventDefault();
+        var item=document.querySelector("#cartitem").value;
+        console.log(item)
+    }
+    document.querySelector("rete").addEventListener("click",myfun)
+    function myfun(){
+        event.preventDefault();
+        var total=document.querySelector("#totalrete").value;
+        console.log(total)
+    }
+</script>
