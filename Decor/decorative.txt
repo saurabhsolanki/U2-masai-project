@@ -1,0 +1,119 @@
+wall =[{
+    "image" : "https://ak1.ostkcdn.com/images/products/19975641/Kate-and-Laurel-Hogan-Wood-Framed-Mirror-with-Scallop-Corners-24x36-b30c507a-7bfe-4e0d-a643-557fa0a2bca0.jpg?imWidth=320&impolicy=medium",
+    "name" : "Mirrors",
+},
+{
+    "image" :"https://ak1.ostkcdn.com/images/products/20112711/Samson-Metal-Wall-Clock-32-h-x-32-w-x-2-d-e55b8aab-60e4-4dd5-8a1f-b6574acc64ee.jpg?imWidth=320&impolicy=medium",
+    "name" : "Clocks",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/DECORATIVE-ACCESSORIES_DecorativeShelves-08.21.jpg?imWidth=320&impolicy=medium",
+    "name" : "Decorative Shelves",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/images/products/19966377/Succulents-Set-of-4-8X8-Canvas-Wall-Art-Prints-9b967d01-ecef-4466-af4e-7add2b8797ed.jpg?imWidth=320&impolicy=medium",
+    "name" : "Canvas Art",
+},
+{
+    "image" :"https://ak1.ostkcdn.com/images/products/28038674/Single-Fern-in-White-Framed-Painting-Print-Multi-color-d18daf6a-4685-4323-b7ec-4d281108a50d.jpg?imWidth=320&impolicy=medium",
+    "name" : "Prints",
+}
+{
+    "image" : "https://ak1.ostkcdn.com/images/products/25978276/Country-French-Flower-Large-94040fb5-6b79-4e03-92d3-0846dd342804.jpg?imWidth=320&impolicy=medium",
+    "name" :  "Metal Art",
+}]
+
+
+shop =[{
+    "image" : "https://ak1.ostkcdn.com/images/products/19848778/Buffalo-Check-18-Inch-Decorative-Throw-Pillow-Cover-set-of-2-85c6694f-53a8-49cb-9e4f-6eab9dbfec87.jpg?imWidth=320&impolicy=medium",
+    "name" : "Throw Pillows"
+},
+{
+    "image" : "https://ak1.ostkcdn.com/images/products/8367250/6-foot-Fiddle-Leaf-Fig-Tree-ff765061-9456-404f-830a-0179daad9469.jpg?imWidth=320&impolicy=medium",
+    "name" : "Silk Plants",
+},
+  {
+      "image" : "https://ak1.ostkcdn.com/images/products/9540129/SB-Kanan-Wood-Candleholders-In-Distressed-Finishes-Set-of-5-7d4ec7d6-923e-4d64-a919-7c87e2ed993e.jpg?imWidth=320&impolicy=medium",
+      "name" : "Candles & Holders"
+  },
+  {
+      "image" : "https://ak1.ostkcdn.com/images/products/13749044/Madison-Park-Signature-Ansen-Metallic-Bronze-3-Piece-Vase-Set-6b9092a8-b097-4c02-806a-47e0afca0415.jpg?imWidth=320&impolicy=medium",
+      "name" : "Vases",
+  },
+  {
+      "image" : "https://ak1.ostkcdn.com/images/products/10810078/Barnwood-Signature-Series-Picture-Frame-11-x-14-e2b03a64-694f-4b80-9331-004672c1ff19.jpg?imWidth=320&impolicy=medium",
+      "name" : "Photo Frames & Albums"
+  },
+  {
+      "image" : "https://ak1.ostkcdn.com/images/products/16295574/Madison-Park-Asher-Black-Gold-Cube-Decor-Set-of-3-a66cd620-410b-4d9d-b4d9-f72d7a5bec83.jpg?imWidth=320&impolicy=medium",
+      "name" :"Statues & Sculptures",
+  },
+]
+
+outdoor =[{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/DECORATIVE-ACCESSORIES_FirepitsandChimineas-08.21.jpg?imWidth=320&impolicy=medium",
+    "name" : "Fire Pits & Chimineas",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/DECORATIVE-ACCESSORIES_GardenAccents-08.21.jpg?imWidth=320&impolicy=medium",
+    "name" : "Garden Accents",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/DECORATIVE-ACCESSORIES_Planters-08.21.jpg?imWidth=320&impolicy=medium",
+    "name" : "Planters, Hangers & Stands"
+},
+{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/DECORATIVE-ACCESSORIES_Doormats-08.21.jpg?imWidth=320&impolicy=medium",
+    "name" : "Doormats",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/DECORATIVE-ACCESSORIES_OutdoorFountains-08.21.jpg?imWidth=320&impolicy=medium",
+    "name" : "Outdoor Fountains"
+},
+{
+    "image" :"https://ak1.ostkcdn.com/img/mxc/DECORATIVE-ACCESSORIES_PatioHeaters-08.21.jpg?imWidth=320&impolicy=medium",
+    "name" : "Patio Heaters"
+},
+
+]
+
+
+
+
+items =[{
+    "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/5945eb9e71a68a86e0763e1840e637941c75ed4b/Mina-Victory-Distressed-Diamond-Boho-Throw-Pillow.jpg?imwidth=480&impolicy=medium",
+    "price" : "Starting at INR 2047.79",
+    "des" : "Mina Victory Distressed Diamond Boho Throw Pillow",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/0c5a948924313be559e82ff28514286def132b65/Contemporary-Candle-Lanterns.jpg?imwidth=480&impolicy=medium",
+    "price" : "Starting at INR 2337.96",
+    "des" : "Contemporary Candle Lanterns",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/0feb82ae997dee745f9328a71093539947fc3a38/Room-Divider%2C-Folding-Privacy-Screen%2C-Tall-Partition-Foldable-Wall-Panel.jpg?imwidth=480&impolicy=medium",
+    "price" : "Starting at INR 12124.16",
+    "des" : "Room Divider Folding Privacy Screen Tall Partition Foldable Wall Panel",
+    
+ },
+ {
+     "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/3f16b04adc18db1263627b386c1c0250d8946358/Harrell-Solid-Velvet-22-inch-Feather-Down-or-Poly-Filled-Pillow.jpg?imwidth=480&impolicy=medium",
+     "price" : "Starting at INR 2892.95",
+     "des" : "Harrell Solid Velvet 22-inch Feather Down or Poly Filled Throw Pillow",
+ },
+ {
+     "image" : "https://ak1.ostkcdn.com/images/products/14053721/Cheer-Collection-Faux-Fur-Throw-Pillow-Set-of-2-3634cd3e-4f24-4246-8350-223bcb3077ac_600.jpg?imwidth=480&impolicy=medium",
+     "price" : "Starting at INR 2762.72",
+     "des" : "Cheer Collection Solid Color Faux Fur Throw Pillows (Set of 2)",
+ },
+ {
+     "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/536575e51c7ee5f2e923cd09c4b2eb4195461b86/3-Piece-Metal-Multi-tone-Vase-Set.jpg?imwidth=480&impolicy=medium",
+     "price" : "Starting at INR 10167.27",
+     "des" : "Blue, Grey, White Ombre Metal Vase (Set of 3)",
+ },
+{
+
+}
+
+
+]

@@ -1,0 +1,107 @@
+size =[{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/Mattresses_SBS_Twin.jpg?imWidth=320&impolicy=medium",
+    "name" : "Twin Bedding"
+},
+{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/Mattresses_SBS_TwinXL.jpg?imWidth=320&impolicy=medium",
+    "name" : "Twin XL Bedding",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/Mattresses_SBS_Full.jpg?imWidth=320&impolicy=medium",
+    "name" : "Full Bedding",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/Mattresses_SBS_Queen.jpg?imWidth=320&impolicy=medium",
+    "name" : "Queen Bedding",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/Mattresses_SBS_King.jpg?imWidth=320&impolicy=medium",
+    "name" : "King Bedding",
+},
+{
+    "image" : "https://ak1.ostkcdn.com/img/mxc/Mattresses_SBS_CaliforniaKing.jpg?imWidth=320&impolicy=medium",
+    "name" : "California King Bedding",
+},
+]
+
+
+
+color=[{
+
+    "image" : "https://ak1.ostkcdn.com/images/products/22671330/Madison-Park-Nollie-White-3-Piece-Tufted-Cotton-Chenille-Geometric-Duvet-Cover-Set-6e556648-fb4f-47d0-980b-0fb8593e6a05_1000.jpg?imWidth=320&impolicy=medium",
+    "name" : "White Bedding"
+    },
+    {
+        "image" : "https://ak1.ostkcdn.com/images/products/19803785/Laura-Ashley-Annalise-Bed-in-a-Bag-a390f678-3fc5-4041-90a9-46f3bc9f47b8_1000.jpg?imWidth=320&impolicy=medium",
+        "name" : "Grey Bedding",
+    },
+    {
+        "image" : "https://ak1.ostkcdn.com/images/products/21211073/Madison-Park-Rianon-Navy-3-Piece-Cotton-Waffle-Weave-Duvet-Cover-Set-e64a1382-cf10-4eab-bdb3-e17e45401ad9_1000.jpg?imWidth=320&impolicy=medium",
+        "name" : "Blue Bedding",
+    },
+    {
+        "image" : "https://ak1.ostkcdn.com/images/products/21416954/Madison-Park-Dillon-8-Piece-Jacquard-Comforter-Set-642b6418-4951-4b75-ae47-047daff3e180_1000.jpg?imWidth=320&impolicy=medium",
+        "name" : "Brown Bedding",
+    },
+    {
+        "image" : "https://ak1.ostkcdn.com/images/products/20651971/The-Curated-Nomad-Clementina-Ivory-Cotton-Printed-Chenille-3-piece-Comforter-Set-7c02fe39-143e-4f4e-b481-39b39cc8afbb_1000.jpg?imWidth=320&impolicy=medium",
+        "name" : "Off-White Bedding"
+    },
+    {
+        "image" : "https://ak1.ostkcdn.com/images/products/28072896/Madison-Park-Sisley-Dusty-Rose-Ruched-Rosette-2-in-1-Duvet-Cover-Set-0f44e4e3-1b17-4e6e-9efc-262b21cb7d1b_1000.jpg?imWidth=320&impolicy=medium",
+        "name" : "Pink Bedding"
+    }
+    ]
+
+
+
+items =[
+    {
+        "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/5eb7250d9eac5f325d996e0dce851945b99f4fbd/Intelligent-Design-Leena-Shaggy-Faux-Fur-Comforter-Set.jpg?imwidth=480&impolicy=medium",
+        "price" : "Starting at INR 5744.82",
+        "des" : "Leena Shaggy Faux Fur Comforter Set by Intelligent Design",
+    },
+    {
+        "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/0b31c2192e16b94cd8cf20615e5f8501af4a7ecb/Soft-Essentials-Ultra-Soft-3-piece-Duvet-Cover-Set.jpg?imwidth=480&impolicy=medium",
+        "price" : "Starting at INR 2892.95",
+        "des" : "Soft Essentials Oversized 3-piece Microfiber Duvet Cover Set",
+    },
+    {
+        "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/72d027124d511d7eae13149a3c5c6e6ec76b5965/MarCielo-3-Piece-Printed-Quilt-Set-Lightweight-Bedspread-Set-By014.jpg?imwidth=480&impolicy=medium",
+        "price" : "Starting at INR 5372.49",
+        "des" : "MarCielo 3 Piece Printed Quilt Set Lightweight Bedspread Set By014",
+    },
+     {
+        "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/ab7557a4ab9db1aa8fe8b9734f9a6304b233324e/Superior-All-season-Luxurious-100-Percent-Cotton-Metro-Blanket.jpg?imwidth=480&impolicy=medium",
+        "price" : "Starting at INR 3076.49",
+        "des" : "Superior Metro All-season Cotton Blanket",
+    },
+     {
+        "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/562040ec56286b6218c00a9e76b80a9641c71e58/Nanshing-Kath-7-piece-Comforter-Set.jpg?imwidth=480&impolicy=medium",
+        "price" : "Starting at INR 8128.22",
+        "des" : "Grand Avenue Daniella 7-Piece Modern Geometric Comforter Set",
+    },
+     {
+        "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/cffa359d60ab3076e9615558561a12385d94ed12/Serenta-9-pc.-Cal-King-Printed-Striped-Cotton-Blend-Bed-Coverlet-Set.jpg?imwidth=480&impolicy=medium",
+        "price" : "Starting at INR 11320.07",
+        "des" : "Serenta 9-pc. Cal King Printed Striped Cotton Blend Bed Coverlet Set",
+    },
+     {
+        "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/2af0dce795b88bd69bfb26172ec79fb554f8c6fe/Becky-Cameron-Premium-Down-Alternative-Forget-Me-Not-Reversible-Comforter-Set.jpg?imwidth=480&impolicy=medium",
+        "price" : "Starting at INR 4959.09",
+        "des" : "Becky Cameron Premium Forget Me Not Reversible Comforter Set",
+    },
+     {
+        "image" : "https://ak1.ostkcdn.com/images/products/18653687/All-Natural-Luxurious-Soft-Prewashed-Yarn-Dye-Cotton-Chambray-Duvet-Cover-Set-4c5ba540-f737-45b6-9800-8579f6c316be_600.jpg?imwidth=480&impolicy=medium",
+        "price" : "Starting at INR 4131.41",
+        "des" : "Swift Home All Natural Luxurious Prewashed Cotton Chambray Duvet Cover Set",
+    },
+     {
+        "image" : "https://ak1.ostkcdn.com/images/products/is/images/direct/0750fa42af5ee7765c370d08580fe281ed83dc12/Madison-Park-Mansfield-6-Piece-Reversible-Daybed-Cover-Set.jpg?imwidth=480&impolicy=medium",
+        "price" : "Starting at INR 5910.00",
+        "des" : "Madison Park Mansfield 6 Piece Reversible Daybed Cover Set",
+    },
+]
+
+
+
